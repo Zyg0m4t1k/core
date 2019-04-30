@@ -87,7 +87,7 @@ Daemon :
 
 -   **Estado**: le dirá si el deamon es OK o KO
 
--   **Configuration** : sera OK si tous les critères pour que le démon
+-   **Configuración**: estará OK si todos los criterios para que el daemon
     tourne sont réunis ou donnera la cause du blocage
 
 -   **(Re)Démarrer** : permet de lancer ou relancer le démon
@@ -96,8 +96,8 @@ Daemon :
     la gestión automática está desactivada)
 
 -   **Gestión automática** : permite de activar o desactivar la gestión
-    automatique (ce qui permet à Jeedom de gérer lui même le démon et le
-    relancer si besoin. Sauf contre indication, il est conseillé de
+    automático (lo que permite a Jeedom gestionar el daemon y el
+    reinicie si es necesario. A menos que se indique lo contrario, es aconsejable 
     dejar la gestión automática activa)
 
 -   **Dernier lancement** : date du dernier lancement du démon
@@ -166,7 +166,7 @@ En la parte superior de la ventana, tienes filtros:
     descripción de este)
 
 -   **Nom d’utilisateur** : affiche le nom d’utilisateur utilisé pour la
-    connexion au Market ainsi que le statut de la connexion
+    conexión al Market así como el estado de la conexión
 
 > **Tip**
 >
@@ -184,7 +184,7 @@ d’informations sur le plugin, notamment :
     -   **Instalar estable** : permite instalar el plugin en su
         versión estable
 
-    -   **Installer beta** : permet d’installer le plugin dans sa
+    -   **Instalar beta**: permite instalar el plugin en su
         versión beta (solo para probadores beta)
 
     -   **Installer pro** : permet d’installer la version pro (très

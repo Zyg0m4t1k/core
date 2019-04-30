@@ -41,7 +41,7 @@ page). Dans ce tableau, on retrouve :
 -   **PID** : indica el proceso ID actual
 
 -   **Deamon** : si esta casilla es "sí", la tarea siempre debe
-    être en cours. A côté, vous retrouvez la fréquence du démon, il est
+    estar en curso. Al lado, encuentras la frecuencia del deamon, es
     aconsejado de no tocar nunca este valor y sobre todo nunca
     disminuirla
 

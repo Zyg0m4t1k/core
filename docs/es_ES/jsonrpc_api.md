@@ -12,7 +12,7 @@ ping
 
 Devuelve pong, para probar la comunicación con Jeedom
 
-version
+versión
 -------
 
 Devuelve la versión de Jeedom
@@ -349,7 +349,7 @@ Parámetros:
 
 -   int id (vide si c’est une création)
 
--   string name
+-   string name
 
 -   string logicalId
 
@@ -420,7 +420,7 @@ Parámetros:
 
 -   int id
 
-scenario::import
+scenario::import 
 ----------------
 
 Permet d’importer un scénario.
@@ -472,7 +472,7 @@ Parámetros:
 log::empty
 ----------
 
-Permet de vider un log
+Permite vaciar un registro
 
 Parámetros:
 
@@ -513,7 +513,7 @@ Enregistre la valeur d’une variable dans le datastore
 Parámetros:
 
 -   string type : type de la valeur stockée (pour les scénarios
-    c’est scenario)
+    es escenario)
 
 -   id linkId : -1 pour le global (valeur pour les scénarios par défaut,
     ou l’id du scénario)

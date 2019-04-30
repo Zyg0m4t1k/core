@@ -33,7 +33,7 @@ Changelog
 -   Amélioration du support des () dans le calcul d'expressions
 -   Posibilidad de editar los escenarios en modo text/json
 -   Ajout sur la page santé d'une vérification de l'espace libre pour le tmp Jeedom
--   Possibilitée d'ajouter des options dans les rapports
+-   Posibilidad de añadir opciones en los informes
 -   Ajout d'un heartbeat par plugin et de redemarrage automatique de démon en cas de soucis
 -   Ajout des listeners sur la page de moteur de tâche
 -   Optimizaciones
@@ -93,7 +93,7 @@ Changelog
 
 - Corrección de errores
 - Ajout d'une option dans l'administration de Jeedom pour préciser la plage d'ip local (utile dans les installations type docker)
-- Correction d'un bug sur le calcul d'utilisation des variables
+- Se corrigió un error en el cálculo de uso de los variables
 - Ajout d'un indicateur sur la page santé donnant le nombre de processus tué par manque de mémoire (indique globalement que le jeedom est trop chargé)
 - Editor de archivos mejorado
 
@@ -121,11 +121,11 @@ Changelog
 - Corrección de errores
 - Correction d'un bugs sur certaine modale en Espagnol
 - Correction d'une erreur de calcul sur time_diff
-- Préparation pour le futur système d'alerting
+- Preparación para el futuro sistema de alerta
 
 3.2.3
 
--   Bugfix sur les fonctions min/max....
+-   Bugfix en las funciones min/max....
 -   Amélioration de l'export des graphiques et de l'affichage en mode table
 
 3.2.2
@@ -135,7 +135,7 @@ Changelog
 
 -   Les utilisateurs peuvent maintenant ajouter leur propre fonction php pour les scénarios. Voir documentation des scénarios pour la mise en place
 
--   JEED-417 : ajout d'une fonction time_diff dans les scénarios
+-   JEED-417: añadiendo una función time_diff en escenarios
 
 -   Ajout d'un délai configurable avant réponse sur les interactions (permet d'attendre que le retour d'état se fasse par exemple)
 
@@ -157,14 +157,14 @@ Changelog
 -   Correction de bug sur la gestion des synonyme des interactions
 
 -   Ajout d’un champs recherche utilisateur pour les connexion LDAP/AD
-    (permet de rendre Jeedom compatible AD)
+    (permite rendir Jeedom compatible con AD)
 
 -   Corrections d’orthographe (merci à dab0u pour son énorme travail)
 
 -   JEED-290 : On ne peut plus se connecter avec les identifiants par
     défaut (admin/admin) à distance, seul le réseau local est autorisé
 
--   JEED-186 : On peut maintenant choisir la couleur de fond dans les
+-   JEED-186: Ahora podemos elegir el color de fondo en los
     diseños
 
 -   Para el bloque A, posibilidad de programar una hora entre 00h01 y 00h59
@@ -185,7 +185,7 @@ Changelog
 
 -   Optimisation des modifications d’organisation (taille des widgets,
     position des équipements, position des commandes) sur le dashboard
-    et les vue. Attention maintenant les modifications ne sont
+    y las vistas. Atención ahora los cambios no son
     sauvegardées que lorsque l’on quitte le mode édition.
 
 -   JEED-18 : Ajout des logs lors de l’ouverture d’un ticket au support
@@ -227,7 +227,7 @@ Changelog
 
 3.1.7
 
--   Correction de bugs (en particulier sur les historiques et
+-   Corrección de errores (especialmente en los registros y
     funciones estadísticas)
 
 -   Amélioration du système de mises à jour avec une page de notes de
@@ -272,7 +272,7 @@ Changelog
 
 -   Ajout de l’avancement de l’update de la webapp
 
--   Reprise en cas d’erreur de mise à jour de la webapp
+-   Reanudar en caso de error al actualizar la webapp
 
 -   Suppression des scénarios "simples" (redondant avec la configuration
     avanzada de los comandos)
@@ -281,7 +281,7 @@ Changelog
 
 -   Refonte de la page des interactions
 
--   Refonte de la page profils
+-   Rediseño de la página perfiles
 
 -   Refonte de la page d’administration
 
@@ -312,13 +312,13 @@ Changelog
 -   Possibilité de choisir la couleur du texte du résumé d’objet
 
 -   Ajout d’une action remove\_inat dans les scénarios permettant
-    d’annuler toutes les programmations des bloc DANS/A
+    de cancelar todas las programaciones de los bloques EN/A
 
 -   Possibilité dans les designs pour les widgets au survol de choisir
     la posición del widget
 
 -   Ajout d’un paramètre reply\_cmd sur les interactions pour spécifier
-    l’id de la commande à utiliser pour répondre
+    el id del comando a usar para responder
 
 -   Ajout d’une timeline sur la page historique (attention doit être
     activée sur chaque commande et/ou scénario que vous voulez
@@ -326,7 +326,7 @@ Changelog
 
 -   Possibilité de vider les évènements de la timeline
 
--   Possibilité de vider les IPs bannies
+-   Posibilidad de vaciar las IPs prohibidas
 
 -   Correction/amélioration de la gestion des comptes utilisateurs
 
@@ -334,7 +334,7 @@ Changelog
 
     -   Prévention du passage en normal du dernier administrateur
 
-    -   Ajout d’une sécurité pour éviter la suppression du compte avec
+    -   Se agregó seguridad para evitar eliminar la cuenta con
         cuál está conectado
 
 -   Possibilité dans la configuration avancé des équipements de mettre
@@ -455,7 +455,7 @@ Changelog
     propio
 
 -   Ajout d’interactions automatiques, Jeedom va essayer de comprendre
-    la phrase, d’exécuter l’action et de répondre
+    la frase, de ejecutar la acción y de responder
 
 -   Ajout de la gestion des démons en version mobile
 
@@ -474,12 +474,12 @@ Changelog
 -   Les déclencheurs d’un scénario peuvent maintenant être des
     condiciones
 
--   Un double clic sur la ligne d’une commande (sur la page
+-   Un doble clic en la línea de un comando (en la página
     de configuration) ouvre maintenant la configuration avancée de
     éste
 
 -   Possibilité d’interdire certaines valeurs pour une commande (dans la
-    configuration avancée de celle-ci)
+    configuración avanzada de la misma)
 
 -   Ajout des champs de configuration sur le retour d’état automatique
     (ex revenir à 0 au bout de 4min) dans la configuration avancée d’une
@@ -502,11 +502,11 @@ Changelog
     configuration générale de Jeedom
 
 -   Ajout d’une zone "tableau" sur les vues qui permet d’afficher une ou
-    plusieurs colonnes par case. Les cases supportent aussi le code HTML
+    varias columnas por casilla. Las cajas también soportan el código HTML
 
 -   Jeedom peut maintenant tourner sans les droits root (expérimental).
     Attention car sans les droits root vous devrez manuellement lancer
-    les scripts pour les dépendances des plugins
+    los scripts para las dependencias de plugins
 
 -   Optimisation du calcul des expressions (calcul des tags uniquement
     si están presentes en la expresión)
@@ -553,7 +553,7 @@ Changelog
 
 -   Possibilité de définir des synonymes pour les objets, équipements,
     commandes et résumés qui seront utilisés dans les réponses
-    contextuelles et résumés
+    contextuales y resúmenes
 
 -   Jeedom sait gérer plusieurs interactions liées (contextuellement)
     en une. Elles doivent être séparées par un mot clef (par défaut et).
@@ -570,7 +570,7 @@ Changelog
     comando "report" en un escenario
 
 -   Possibilité d’exporter un panel d’un plugin en PDF, PNG, SVG ou JPEG
-    avec la commande "report" dans un scénario
+    con el comando "report" en un escenario
 
 -   Ajout d’une page de gestion de rapport (pour les re-télécharger ou
     eliminarlos)
@@ -625,12 +625,12 @@ Changelog
 
     -   Passage en cache du pid, état et dernier lancement des crons
 
-    -   Dans 99% des cas plus de requête d’écriture sur la base en
+    -   En el 99% de los casos no hay más solicitud de escritura en la base en
         fonctionnement nominal (donc hors configuration de Jeedom,
         modificaciones, instalación, actualización...)
 
 -   Suppression du fail2ban (car facilement contournable en envoyant une
-    fausse adresse ip), cela permet d’accélérer Jeedom
+    falsa dirección IP), esto permite acelerar Jeedom
 
 -   Ajout dans les interactions d’une option sans catégorie pour que
     l’on puisse générer des interactions sur des équipements sans
@@ -660,11 +660,11 @@ Changelog
     comando
 
 -   Possibilité de remplacer une commande par une autre dans tout Jeedom
-    (même si la commande à remplacer n’existe plus)
+    (incluso si el comando a reemplazar no existe)
 
 2.3
 
--   Correction des filtres sur le market
+-   Corrección de filtros en el market
 
 -   Correction des checkbox sur la page d’édition des vues (sur une
     área gráfica)
@@ -701,12 +701,12 @@ Changelog
 -   Correction de bugs de la sauvegarde/restauration si le nom du jeedom
     contiene caracteres especiales
 
--   Optimisation de l’organisation de la liste des generic type
+-   Optimización de la organización de la lista de los generic type
 
 -   Amélioration de l’affichage de la configuration avancée des
     equipos
 
--   Correction de l’interface d’accès au backup depuis
+-   Corrección de la interfaz de acceso a la copia de seguridad desde
 
 -   Sauvegarde de la configuration lors du test du market
 
@@ -750,7 +750,7 @@ Changelog
 
 -   Optimización de los registros (gracias @kwizer15)
 
--   Possibilité de choisir le format des logs
+-   Posibilidad de elegir el formato de los logs
 
 -   Optimisation diverse du code (merci @kwizer15)
 
@@ -769,7 +769,7 @@ Changelog
     servidor samba y recuperar plugins)
 
 -   Ajout d’un "repo" FTP (utilisable pour pousser des backups sur un
-    serveur FTP et récupérer des plugins)
+    servidor FTP y recuperar plugins)
 
 -   Ajout pour certain "repo" de la possibilité de récupérer le core de
     jeedom
@@ -784,7 +784,7 @@ Changelog
 
 -   Possibilité de forcé la versification des mises à jour d’un plugin
 
--   Légère refonte du centre de mise à jour
+-   Ligero rediseño del centro de actualización
 
 -   Possibilité de désactiver la vérification automatique des mises à
     día
@@ -856,7 +856,7 @@ Changelog
 
 -   Renforcement de la gestion des erreurs sur les widgets
 
--   Possibilité de réordonner les vues
+-   Posibilidad de reordenar las vistas
 
 -   Rediseño de la gestión de los temas.
 
@@ -870,7 +870,7 @@ Changelog
     avez plus de 512 Mo de RAM de monter le /tmp en tmpfs (en RAM pour
     plus de rapidité et une diminution de l’usure de la carte SD, je
     recommande une taille de 64mo). Attention lors du redémarrage de
-    Jeedom le cache est vidé il faut donc attendre pour avoir la
+    Jeedom el caché se vacía, así que tienes que esperar para obtener la
     feedback de todas las informaciones
 
 -   Refonte du système de log (utilisation de monolog) qui permet une
@@ -891,7 +891,7 @@ Changelog
 
 -   Soporte + optimización para php7
 
--   Refonte des menus Jeedom
+-   Rediseño de los menús Jeedom
 
 -   Suppression de toute la partie gestion réseau : wifi, ip fixe…
     (reviendra sûrement sous forme de plugin). ATTENTION ce n’est pas le
