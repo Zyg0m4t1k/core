@@ -4,7 +4,7 @@ Las especificaciones (JSON RPC 2.0) :
 
 El acceso a la API es a través de la URL: URL * \ * _JEEDOM / core / api / jeeApi.php
 
-Divers
+Diverso
 ======
 
 ping
@@ -423,7 +423,7 @@ Parámetros:
 scenario::import 
 ----------------
 
-Permet d’importer un scénario.
+Permite importar un escenario.
 
 Parámetros:
 
@@ -436,7 +436,7 @@ Parámetros:
 scenario::changeState
 ---------------------
 
-Change l’état du scénario spécifié.
+Cambia el estado del escenario especificado.
 
 Parámetros:
 
@@ -481,7 +481,7 @@ Parámetros:
 log::remove
 -----------
 
-Permet de supprimer un log
+Permite eliminar un registro
 
 Parámetros:
 
@@ -498,7 +498,7 @@ Récupère la valeur d’une variable stockée dans le datastore
 Parámetros:
 
 -   string type : type de la valeur stockée (pour les scénarios
-    c’est scenario)
+    es escenario)
 
 -   id linkId : -1 pour le global (valeur pour les scénarios par défaut,
     ou l’id du scénario)
@@ -533,7 +533,7 @@ Retourne la liste de tous les messages
 message::removeAll
 ------------------
 
-Supprime tous les messages
+Borra todos los mensajes
 
 API JSON Interaction
 ====================
