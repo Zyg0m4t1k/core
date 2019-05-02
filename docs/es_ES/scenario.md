@@ -195,7 +195,7 @@ sélectionner un élément à tester :
     effectuer sur celle-ci. Si vous choisissez de **Ne rien mettre**,
     Jeedom ajoutera la commande sans comparaison. Vous pouvez également
     choisir **et**ou**ou**devant**Ensuite** pour enchaîner des tests
-    sur différents équipements.
+    en diferentes equipos.
 
 -   **Rechercher un scénario** : Permet de chercher un scénario
     para probar.
@@ -614,7 +614,7 @@ effectuer des conversions ou des calculs :
     disparador del escenario.
 
 -   round(valeur,[decimal]) : Donne un arrondi au-dessus, [decimal]
-    nombre de décimales après la virgule.
+    número de decimales después del punto decimal.
 
 -   odd(valeur) : Permet de savoir si un nombre est impair ou non.
     Renvoie 1 si impair 0 sinon.
