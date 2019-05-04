@@ -76,7 +76,7 @@ Dependencias :
 
 -   **Instalación**: instalará o reinstalará los
     dépendances (si vous ne le faites pas manuellement et qu’elles sont
-    KO, Jeedom s’en chargera de lui-même au bout d’un moment)
+    KO, Jeedom lo hará por sí mismo después de un tiempo)
 
 -   **Dernière installation** : date de la dernière installation des
     dependencias
@@ -88,7 +88,7 @@ Daemon :
 -   **Estado**: le dirá si el deamon es OK o KO
 
 -   **Configuración**: estará OK si todos los criterios para que el daemon
-    tourne sont réunis ou donnera la cause du blocage
+    gira están reunidos o dará la causa del bloqueo
 
 -   **(Re)Démarrer** : permet de lancer ou relancer le démon
 
@@ -100,7 +100,7 @@ Daemon :
     reinicie si es necesario. A menos que se indique lo contrario, es aconsejable 
     dejar la gestión automática activa)
 
--   **Dernier lancement** : date du dernier lancement du démon
+-   **Último lanzamiento** : fecha del último lanzamiento del deamon
 
 > **Tip**
 >
@@ -150,7 +150,7 @@ chargement, vous obtiendrez la page.
 
 En la parte superior de la ventana, tienes filtros:
 
--   **Gratuit/Payant** : permet d’afficher uniquement les gratuits ou
+-   **Gratis/Pago** : permite mostrar solamente los gratis o
     los de pago.
 
 -   **Oficial/Aconsejado** : permite mostrar solamente los plugins
@@ -162,10 +162,10 @@ En la parte superior de la ventana, tienes filtros:
 -   **Menu déroulant Catégorie** : permet d’afficher uniquement
     algunas categorías de plugins
 
--   **Rechercher** : permet de rechercher un plugin (dans le nom ou la
+-   **Buscar** : permite buscar un plugin (en el nombre o la
     descripción de este)
 
--   **Nom d’utilisateur** : affiche le nom d’utilisateur utilisé pour la
+-   **Nombre de usuario** : muestra el nombre de usuario utilizado para la
     conexión al Market así como el estado de la conexión
 
 > **Tip**
@@ -187,7 +187,7 @@ d’informations sur le plugin, notamment :
     -   **Instalar beta**: permite instalar el plugin en su
         versión beta (solo para probadores beta)
 
-    -   **Installer pro** : permet d’installer la version pro (très
+    -   **Installer pro**: permite instalar la versión pro (muy
         poco utilizado)
 
     -   **Supprimer** : si le plugin est actuellement installé, ce

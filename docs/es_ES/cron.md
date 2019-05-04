@@ -66,7 +66,7 @@ page). Dans ce tableau, on retrouve :
     démon sera toujours à 0s, il ne faut pas s’inquiéter d’autres tâches
     puede estar en 0s)
 
--   **Statut** : état actuel de la tâche (pour rappel, une tâche démon
+-   **Estado** : estado actual de la tarea (a modo de recordatorio, una tarea deamon
     todavía está en "run")
 
 -   **Suppression** : permet de supprimer la tâche

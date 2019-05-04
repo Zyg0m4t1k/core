@@ -255,7 +255,7 @@ Changelog
     les variables) amène sur sa page de configuration
 
 -   Possibilité de mettre le texte à gauche/droit/au centre sur les
-    designs pour les éléments de type texte/vue/design
+    diseños para los elementos de tipo texto/vista/diseño
 
 -   Ajout des résumés d’objets sur le dashboard (liste des objets
     a la izquierda)
@@ -468,7 +468,7 @@ Changelog
 -   Les objets sans widget sont automatiquement masqués sur le dashboard
 
 -   Ajout d’un bouton dans la configuration avancée d’un
-    équipement/d’une commande pour voir les événements de
+    equipo/de un comando para ver los eventos de
     este/esta
 
 -   Les déclencheurs d’un scénario peuvent maintenant être des
@@ -539,7 +539,7 @@ Changelog
 -   Possibilité de pondérer les mots en fonction de leur taille pour
     el análisis de la comprensión
 
--   Les plugins peuvent maintenant ajouter des interactions
+-   Los plugins ahora pueden agregar interacciones
 
 -   Les interactions peuvent maintenant renvoyer des fichiers en plus de
     la respuesta
@@ -644,12 +644,12 @@ Changelog
 -   Ajout de la notion de résumé domotique (permet de connaitre d’un
     seul coup le nombre de lumières à ON, les porte ouvertes, les
     persianas, las ventanas, la potencia, las detecciones de movimiento ...).
-    Tout cela se configure sur la page de gestion des objets
+    Todo esto se configura en la página de gestión de los objetos
 
 -   Ajout de pre et post commande sur une commande. Permet de déclencher
     tout le temps une action avant ou après une autre action. Peut aussi
     permettre de synchroniser des équipements pour, par exemple, que 2
-    lumières s’allument toujours ensemble avec la même intensité.
+    luces siempre se encienden juntas con la misma intensidad.
 
 -   Optimización de los listenner
 
@@ -693,7 +693,7 @@ Changelog
 -   Correction d’un bug sur la valeur de timeout des scénarios
 
 -   correction d’un bug sur l’affichage des widgets dans les vues qui
-    prenait la version dashboard
+    estaba tomando la versión dashboard
 
 -   Correction d’un bug sur les designs qui pouvait utiliser la
     configuration des widgets du dashboard au lieu des designs
@@ -752,7 +752,7 @@ Changelog
 
 -   Posibilidad de elegir el formato de los logs
 
--   Optimisation diverse du code (merci @kwizer15)
+-   Optimización diversa del código (gracias @kwizer15)
 
 -   Passage en module de la connexion avec le market (permettra d’avoir
     un jeedom sin ningún enlace al market)
@@ -801,7 +801,7 @@ Changelog
 -   Suppression du démarrage en debug des démons, maintenant le niveau
     de logs du démon est le même que celui du plugin
 
--   Nettoyage de lib tierce
+-   Limpieza de librería de terceros
 
 -   Suppression de responsive voice (fonction dit dans les scénarios qui
     funcionaba cada vez menos bien)
