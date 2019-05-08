@@ -186,7 +186,7 @@ Changelog
 -   Optimisation des modifications d’organisation (taille des widgets,
     position des équipements, position des commandes) sur le dashboard
     y las vistas. Atención ahora los cambios no son
-    sauvegardées que lorsque l’on quitte le mode édition.
+    que se guarda solo al salir del modo de edición.
 
 -   JEED-18 : Ajout des logs lors de l’ouverture d’un ticket au support
 
